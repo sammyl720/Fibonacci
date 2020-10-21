@@ -21,7 +21,7 @@ var calculateFib = function (inputNumber) {
     var output = '';
     for (var i = 0; i < results.length; i++) {
         var element = results[i];
-        output += "\n      <li class=\"list-item\">\n        <strong>Step " + (i + 1) + ":</strong> " + results[i] + "\n      </li>\n    ";
+        output += "<li class=\"list-item\">\n        <strong>Step " + (i + 1) + "</strong> " + results[i] + "\n      </li>\n    ";
     }
     outputDiv.innerHTML = "\n    <ul class=\"output-list\">\n      " + output + "\n    </ul>\n  ";
 };

@@ -26,9 +26,8 @@ const calculateFib = (inputNumber: number): void => {
   let output = ''
   for (let i = 0; i < results.length; i++) {
     const element = results[i];
-    output += `
-      <li class="list-item">
-        <strong>Step ${i + 1}:</strong> ${results[i]}
+    output += `<li class="list-item">
+        <strong>Step ${i + 1}</strong> ${results[i]}
       </li>
     `
   }
