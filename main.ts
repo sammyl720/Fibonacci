@@ -16,7 +16,7 @@ const calculateFib = (inputNumber: number): void => {
   const results: number[] = [];
 
   let count:number = 0;
-  while(count < inputNumber) {
+  while(count < inputNumber ) {
     results.push(a)
     results.push(b)
     a = a + b;
@@ -28,7 +28,7 @@ const calculateFib = (inputNumber: number): void => {
     const element = results[i];
     output += `
       <li class="list-item">
-        <strong>Step ${i}:</strong> ${results[i]}
+        <strong>Step ${i + 1}:</strong> ${results[i]}
       </li>
     `
   }
