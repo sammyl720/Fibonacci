@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="The Fibonacci sequence is one of the most famous formulas in mathematics.
+  Each number in the sequence is the sum of the two numbers that precede it.">
+  <link rel="stylesheet" href="./style.css">
+  <title>Fibonacci Sequence</title>
+</head>
+<body>
+  <div class="wrapper">
+    <div class="container">
+      <h1 class="title">Fibonacci Sequence</h3>
+      <div class="description">
+        <p>The Fibonacci sequence is one of the most famous formulas in mathematics.</p>
+        <p>Each number in the sequence is the sum of the two numbers that precede it. So, the sequence goes: 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, and so on.<br />
+          The mathematical equation describing it is Xn+2= Xn+1 + Xn</p>
+      </div>
+    </div>
+    <div class="form-container">
+      <p>Enter a Number (1 - 100) to see the steps of the Fibonacci Sequence to that number</p>
+      <form id='form' class="form">
+        <div class="input-group">
+          <label for="number">Number</label>
+          <input type="number" name="number" id="number" min="1" max="100" required>
+          <button type="submit" class="btn">Calculate</button>
+        </div>
+      </form>
+    </div>
+    <div class="output-result">
+    </div>
+  </div>
+  <script src="./main.js"></script>
+</body>
+</html>
