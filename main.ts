@@ -7,6 +7,7 @@ form.addEventListener('submit', e => {
   e.preventDefault()
   calculateFib(Number(inputButton.value))
   inputButton.value = ''
+  inputButton.blur()
 })
 
 const calculateFib = (inputNumber: number): void => {

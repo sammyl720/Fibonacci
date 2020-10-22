@@ -5,6 +5,7 @@ form.addEventListener('submit', function (e) {
     e.preventDefault();
     calculateFib(Number(inputButton.value));
     inputButton.value = '';
+    inputButton.blur();
 });
 var calculateFib = function (inputNumber) {
     var a = 0;
