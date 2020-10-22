@@ -23,7 +23,7 @@
       <form id='form' class="form">
         <div class="input-group">
           <label for="number">Number</label>
-          <input type="number" name="number" id="number" min="1" max="100" required>
+          <input name="number" inputmode="numeric" pattern="^(\d{1,2}|100)$" id="number" min="1" max="100" required>
         </div>
         <button type="submit" class="btn">Calculate</button>
       </form>
